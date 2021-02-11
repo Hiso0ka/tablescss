@@ -1,0 +1,55 @@
+h1 {
+    font-family: 'Hanalei', cursive;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+caption {
+    color: blue;
+    background-color: gold;
+    font-weight: bold;
+}
+
+table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    empty-cells: hide;
+}
+
+th {
+    border: 1px solid black;
+    padding-right:  100px;
+    padding-left: 100px;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+p {
+    border: 1px solid black;
+    height: 40px;
+}
+
+table.dos caption{
+    caption-side: bottom;
+}
+
+table.dos {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table.dos tbody {
+    border: 4px dotted red;
+
+}
+
+table.dos th {
+    margin-left: 50%;
+   
+    padding-right: 250px;
+    padding-right: 250px;
+}
